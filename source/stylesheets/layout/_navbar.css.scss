@@ -1,0 +1,105 @@
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  &-logo {
+    width: 50px;
+  }
+  &-container {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background: white;
+  }
+  &-item {
+    flex: 0 1 auto;
+    padding: 0 10px;
+  }
+  &-search {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+    position: relative;
+    &-btn {
+      line-height: 40px;
+      color: #E6E6E6;
+      border: none;
+      background: transparent;
+      position: absolute;
+      right: 10px;
+      top: -2px;
+      z-index: 1;
+    }
+    &-input {
+      flex: 0 1 300px;
+      transition: all 0.15s ease;
+      line-height: 40px;
+      font-weight: lighter;
+      color: #666666;
+      border: 1px solid #E6E6E6;
+      border-radius: 5px;
+      padding: 0 10px;
+      font-size: 14px;
+      outline: none;
+    }
+    &-input:focus  {
+      border: 1px solid #CCCCCC;
+    }
+  }
+  &-link {
+    color: #616668;
+    font-size: 14px;
+    &:hover {
+      color: #da552f;
+      text-decoration: none;
+    }
+  }
+  &-avatar {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  &-button {
+    padding: 0 20px;
+    border-radius: 20em;
+    line-height: 40px;
+    background-color: #D23333;
+    color: white;
+    font-size: 14px;
+    border: 2px solid $brand-color;
+
+    &:hover {
+      color: white;
+      background: $brand-color;
+      border-color: darken($brand-color, 10%);
+    }
+  }
+  &-dropdown-menu {
+    margin-top: 15px;
+    box-shadow: 1px 1px 4px #E6E6E6;
+    border-color: #E6E6E6;
+    li > a {
+      transition: color 0.3s ease;
+      font-weight: lighter !important;
+      color: #999999 !important;
+      font-size: 15px !important;
+      line-height: 22px !important;
+      padding: 10px 20px;
+      &:hover {
+        background: transparent !important;
+        color: black !important;
+      }
+    }
+    &:before {
+      content: ' ';
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      right: 10px;
+      top: -10px;
+      background-color: white;
+      transform: rotate(45deg);
+      border-left: 1px solid #E6E6E6;
+      border-top: 1px solid #E6E6E6;
+    }
+  }
+}

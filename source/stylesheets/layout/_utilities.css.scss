@@ -1,0 +1,35 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+
+// Paddings
+.padded {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+// Backgrounds
+.bg-text {
+  background: #4a4a4a;
+}
+.bg-email {
+  background: #aeaeae;
+}
+.bg-twitter {
+  background: #00a3e1;
+}
+.bg-facebook {
+  background: #3b5998;
+}
+
+// Headings
+.section-heading {
+  color: #bbb;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}

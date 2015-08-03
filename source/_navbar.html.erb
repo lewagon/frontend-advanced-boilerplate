@@ -1,0 +1,43 @@
+<nav class="navbar-wagon">
+  <div class="container navbar-wagon-container">
+
+    <% link_to "/" do %>
+      <%= image_tag "lewagon.png", class: "navbar-wagon-logo" %>
+    <% end %>
+
+    <form action="" class="navbar-wagon-search">
+      <input type="text" class="navbar-wagon-search-input hidden-xs" placeholder="Search for featured stuff">
+      <button type="submit" class="navbar-wagon-search-btn hidden-xs">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <div class="navbar-wagon-item">
+      <a href="" class="navbar-wagon-button btn btn-default">Post stuff</a>
+    </div>
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="icon-badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="icon-badge icon-badge-blue">3</div>
+      </div>
+    </a>
+
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+
+        <img src="https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg" alt="" class="navbar-wagon-avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu" aria-labelledby="navbar-wagon-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
