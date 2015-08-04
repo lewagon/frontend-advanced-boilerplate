@@ -1,5 +1,6 @@
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
   &-logo {
     width: 50px;
   }
@@ -7,7 +8,6 @@
     display: flex;
     height: 70px;
     align-items: center;
-    background: white;
   }
   &-item {
     flex: 0 1 auto;
@@ -52,11 +52,6 @@
       color: #da552f;
       text-decoration: none;
     }
-  }
-  &-avatar {
-    width: 40px;
-    border-radius: 50%;
-    cursor: pointer;
   }
   &-button {
     padding: 0 20px;
