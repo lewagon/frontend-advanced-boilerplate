@@ -1,4 +1,4 @@
-## Démarrer un nouveau projet.
+## Start a new project.
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+1. Fork this repo
+1. Rename-it then clone it on your computer
